@@ -10,13 +10,7 @@ Rails.application.routes.draw do
 
     resources :plants do
       resources :routines
-
-      resources :plants do
         resources :specs
-      end
-      
     end
-    
   end
-
 end
